@@ -2,7 +2,6 @@ library(KernSmooth)
 library(kernlab)
 library(ranger)
 source("minimax_core.R")
-source("twostage_datagen.R")
 
 kernel_cond_density_function <- function(x, y, bandwidth_x, bandwidth_y = 1) {
   x <- as.matrix(x)
