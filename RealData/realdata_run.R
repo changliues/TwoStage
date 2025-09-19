@@ -15,7 +15,7 @@ expit <- function(x){exp(x)/(1+exp(x))}
 logit <- function(x){log(x/(1-x))}
 
 ###############################################read data###############################################
-analysis_dataset_complete <- readRDS(file = "RealData/analysis_dataset_complete.rds")
+analysis_dataset_complete <- readRDS(file = "RealDat/analysis_dataset_complete.rds")
 # analysis_dataset_complete <- analysis_dataset_complete[1:100,]
 sample.size <- nrow(analysis_dataset_complete)
 ###############################################proxci###############################################
